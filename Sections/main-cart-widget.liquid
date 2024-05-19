@@ -1,0 +1,22 @@
+<div id="cart-widget" class="cart-widget">
+    <h2>Carrito de Compras</h2>
+    <ul id="cart-items" class="cart-items">
+        <!-- Items serán inyectados aquí por JavaScript -->
+    </ul>
+    <div class="cart-subtotal">
+        <span>Subtotal:</span> <span id="cart-subtotal">$0.00</span>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Main Cart Widget",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Default",
+      "category": "Cart"
+    }
+  ]
+}
+{% endschema %}
